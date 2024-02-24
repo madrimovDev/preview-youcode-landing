@@ -1,0 +1,35 @@
+.rc-tabs {
+	border: none;
+}
+.rc-tabs-top .rc-tabs-ink-bar,
+.rc-tabs-bottom .rc-tabs-ink-bar {
+	@apply hidden;
+}
+
+.rc-tabs-tab {
+	background-color: transparent;
+	@apply px-8 py-1 text-base font-normal transition-colors rounded-md justify-center flex-grow;
+}
+.rc-tabs-tab.rc-tabs-tab-active {
+	@apply text-white bg-primary;
+}
+
+.rc-tabs-nav {
+	@apply px-4;
+}
+
+.rc-tabs-nav-wrap {
+	@apply justify-center;
+}
+
+.rc-tabs-nav-list {
+	@apply flex-wrap gap-y-2;
+}
+
+.slick-active span[data-dots] {
+	@apply bg-primary;
+}
+
+.slick-list{
+	@apply px-10
+}
